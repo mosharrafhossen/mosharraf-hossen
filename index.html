@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mosharraf Hossen | Frontend Developer</title>
+  <meta name="description" content="Frontend Developer building fast, accessible and responsive websites using HTML, CSS and JavaScript." />
+  <meta name="keywords" content="Frontend Developer, HTML, CSS, JavaScript, Portfolio" />
+  <meta name="theme-color" content="#4f46e5" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- ================= HEADER START ================= -->
+ <header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#home">Mosharraf</a>
+
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button
+      id="themeToggle"
+      class="theme-toggle"
+      aria-label="Toggle dark mode"
+      aria-pressed="false"
+    >
+      🌙
+    </button>
+
+    <button
+      class="nav-toggle"
+      id="navToggle"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+      aria-controls="nav"
+    >
+      ☰
+    </button>
+
+  </div>
+</header>
+  <!-- ================= HEADER END ================= -->
+
+  <!-- ================= HERO SECTION START ================= -->
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h1 data-animate="words">
+            Hi, I'm <span class="accent">Mosharraf Hossen</span>
+          </h1>
+
+          <p class="lead reveal">
+            Frontend Developer building fast, accessible & responsive websites.
+          </p>
+
+          <div class="hero-ctas reveal">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn alt" href="#contact">Hire Me</a>
+          </div>
+        </div>
+
+        <div class="hero-right reveal">
+          <div class="profile-card">
+            <img src="image/home-page/Mosharraf.jpg" alt="Mosharraf Hossen portrait" loading="lazy">
+            <div class="profile-body">
+              <h3>Mosharraf Hossen</h3>
+              <p>Frontend Developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================= HERO SECTION END ================= -->
+
+    <!-- ================= PROJECTS SECTION START ================= -->
+       <section id="projects" class="projects section">
+    <div class="container">
+
+    <h2 class="section-title reveal">Projects</h2>
+    <p class="lead reveal">
+      Some real-world projects I’ve built recently.
+    </p>
+
+    <div class="grid">
+
+      <!-- Project 1 -->
+      <article class="project card">
+        <img src="image/projects/MOSHARRAF-HOSSEN.png" alt="Personal portfolio website preview" loading="lazy">
+        <div class="project-info">
+          <h3>Personal Portfolio</h3>
+          <p>Modern responsive portfolio built with HTML, CSS & JavaScript.</p>
+          <span class="tech">HTML • CSS • JavaScript</span>
+          <a class="link" href="https://mosharrafhossen.github.io/mosharraf/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project card">
+        <img src="image/projects/To-Do-App.png" alt="Todo app preview" loading="lazy">
+        <div class="project-info">
+          <h3>To Do App</h3>
+          <p>Task management app with LocalStorage support.</p>
+          <span class="tech">JavaScript • DOM • LocalStorage</span>
+          <a class="link" href="https://mosharrafhossen.github.io/to-do-app/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project card">
+        <img src="image/projects/To-Do-List.jpg" alt="Todo list app preview" loading="lazy">
+        <div class="project-info">
+          <h3>To Do List</h3>
+          <p>Simple and clean daily task organizer.</p>
+          <span class="tech">HTML • CSS • JavaScript</span>
+          <a class="link" href="https://mosharrafhossen.github.io/to-do-app-2/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      <!-- Project 4 -->
+      <article class="project card">
+        <img src="image/projects/Calculator.png" alt="Calculator app preview" loading="lazy">
+        <div class="project-info">
+          <h3>Calculator App</h3>
+          <p>Basic calculator for arithmetic operations.</p>
+          <span class="tech">HTML • CSS • JavaScript</span>
+          <a class="link" href="https://mosharrafhossen.github.io/calculator-app/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      <!-- Project 5 -->
+      <article class="project card">
+        <img src="image/projects/Admission-Form.webp" alt="University application form preview" loading="lazy">
+        <div class="project-info">
+          <h3>University Application Form</h3>
+          <p>Student admission form with clean UI.</p>
+          <span class="tech">HTML • CSS</span>
+          <a class="link" href="https://mosharrafhossen.github.io/university-application-form/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      <!-- Project 6 -->
+      <article class="project card">
+        <img src="image/projects/Alina-Fashion.png" alt="Fashion store website preview" loading="lazy">
+        <div class="project-info">
+          <h3>Alina Fashion</h3>
+          <p>Modern fashion store landing website.</p>
+          <span class="tech">HTML • CSS • JavaScript</span>
+          <a class="link" href="https://mosharrafhossen.github.io/alina-fashion/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      <!-- Project 7 -->
+      <article class="project card">
+        <img src="image/projects/FoodDash.jpg" alt="Food delivery website preview" loading="lazy">
+        <div class="project-info">
+          <h3>Food Dash</h3>
+          <p>Fast food delivery service website.</p>
+          <span class="tech">HTML • CSS • JavaScript</span>
+          <a class="link" href="https://mosharrafhossen.github.io/food-dash/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      <!-- Project 8 -->
+      <article class="project card">
+        <img src="image/projects/Survay-Form.avif" alt="Survey form preview" loading="lazy">
+        <div class="project-info">
+          <h3>Survey Form</h3>
+          <p>Form to collect user opinions and feedback.</p>
+          <span class="tech">HTML • CSS</span>
+          <a class="link" href="https://mosharrafhossen.github.io/survay-form/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      <!-- Project 9 -->
+      <article class="project card">
+        <img src="image/projects/Today's-Inspiration.webp" alt="Inspiration app preview" loading="lazy">
+        <div class="project-info">
+          <h3>Inspiration App</h3>
+          <p>Daily motivational quotes application.</p>
+          <span class="tech">HTML • CSS • JavaScript</span>
+          <a class="link" href="https://mosharrafhossen.github.io/inspiration-app/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      <!-- Project 10 -->
+      <article class="project card">
+        <img src="image/projects/Class-Routine.jpg" alt="Class routine app preview" loading="lazy">
+        <div class="project-info">
+          <h3>Class Routine</h3>
+          <p>Weekly class schedule display app.</p>
+          <span class="tech">HTML • CSS • JavaScript</span>
+          <a class="link" href="https://mosharrafhossen.github.io/class-routine/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      <!-- Project 11 -->
+      <article class="project card">
+        <img src="image/projects/Quiz-app.webp" alt="Quiz application preview" loading="lazy">
+        <div class="project-info">
+          <h3>Quiz App</h3>
+          <p>Interactive quiz app with multiple questions.</p>
+          <span class="tech">HTML • CSS • JavaScript</span>
+          <a class="link" href="https://mosharrafhossen.github.io/quiz-app/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      <!-- Project 12 -->
+      <article class="project card">
+        <img src="image/projects/Calendar.jpg" alt="Calendar app preview" loading="lazy">
+        <div class="project-info">
+          <h3>Calendar</h3>
+          <p>Date-based task planning calendar.</p>
+          <span class="tech">HTML • CSS • JavaScript</span>
+          <a class="link" href="https://mosharrafhossen.github.io/calander/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      <!-- Project 13 -->
+      <article class="project card">
+        <img src="image/projects/Blog.webp" alt="Personal blog website preview" loading="lazy">
+        <div class="project-info">
+          <h3>Mosharraf’s Blog</h3>
+          <p>Personal blog sharing thoughts and articles.</p>
+          <span class="tech">HTML • CSS</span>
+          <a class="link" href="https://mosharrafhossen.github.io/mosharraf-s-blog/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      <!-- Project 14 -->
+      <article class="project card">
+        <img src="image/projects/Age-Calculator.png" alt="Age calculator app preview" loading="lazy">
+        <div class="project-info">
+          <h3>Age Calculator</h3>
+          <p>Calculates age from date of birth.</p>
+          <span class="tech">HTML • CSS • JavaScript</span>
+          <a class="link" href="https://mosharrafhossen.github.io/age-calculator/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      <!-- Project 15 -->
+      <article class="project card">
+        <img src="image/projects/Currency-Converter.jpg" alt="Currency converter app preview" loading="lazy">
+        <div class="project-info">
+          <h3>Currency Converter</h3>
+          <p>Convert currencies using real-time logic.</p>
+          <span class="tech">HTML • CSS • JavaScript</span>
+          <a class="link" href="https://mosharrafhossen.github.io/currency-converter/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      <!-- Project 16 -->
+      <article class="project card">
+        <img src="image/projects/Food-Order-Form.jpg" alt="Food order form preview" loading="lazy">
+        <div class="project-info">
+          <h3>Food Order Form</h3>
+          <p>Simple food ordering form interface.</p>
+          <span class="tech">HTML • CSS</span>
+          <a class="link" href="https://mosharrafhossen.github.io/food-order-form/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      <!-- Project 17 -->
+      <article class="project card">
+        <img src="image/projects/Word-Counter.png" alt="Word counter tool preview" loading="lazy">
+        <div class="project-info">
+          <h3>Word Counter</h3>
+          <p>Counts words and characters in text.</p>
+          <span class="tech">HTML • CSS • JavaScript</span>
+          <a class="link" href="https://mosharrafhossen.github.io/word-counter/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      <!-- Project 18 -->
+      <article class="project card">
+        <img src="image/projects/Color-Picker-Tool.jpg" alt="Color picker tool preview" loading="lazy">
+        <div class="project-info">
+          <h3>Color Picker Tool</h3>
+          <p>Select colors and get color codes.</p>
+          <span class="tech">HTML • CSS • JavaScript</span>
+          <a class="link" href="https://mosharrafhossen.github.io/color-picker-tool/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      <!-- Project 19 -->
+      <article class="project card">
+        <img src="image/projects/RiseUp.webp" alt="Motivational website preview" loading="lazy">
+        <div class="project-info">
+          <h3>RiseUp</h3>
+          <p>Motivational quotes and positivity app.</p>
+          <span class="tech">HTML • CSS • JavaScript</span>
+          <a class="link" href="https://mosharrafhossen.github.io/rise-up/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      <!-- Project 20 -->
+      <article class="project card">
+        <img src="image/projects/MCQ-Exam.jpg" alt="MCQ exam website preview" loading="lazy">
+        <div class="project-info">
+          <h3>MCQ Exam</h3>
+          <p>Online multiple-choice test platform.</p>
+          <span class="tech">HTML • CSS • JavaScript</span>
+          <a class="link" href="https://mosharrafhossen.github.io/mcq-exam/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      <!-- Project 21 -->
+      <article class="project card">
+        <img src="image/projects/landing-page.jpeg" alt="Landing page preview" loading="lazy">
+        <div class="project-info">
+          <h3>Landing Page</h3>
+          <p>Conversion-focused landing page design.</p>
+          <span class="tech">HTML • CSS</span>
+          <a class="link" href="https://mosharrafhossen.github.io/landing-page/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+
+      <!-- Project 22 -->
+      <article class="project card">
+        <img src="image/projects/social-links-profile-main.jpg" alt="Social links profile main" loading="lazy">
+        <div class="project-info">
+          <h3>Social links profile main</h3>
+          <p>Social links (profile header) refers to websites, or in-person participation, where you are identified through social links.</p>
+          <span class="tech">HTML • CSS</span>
+          <a class="link" href="https://mosharrafhossen.github.io/social-links-profile/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+
+      <!-- Project 23 -->
+      <article class="project card">
+        <img src="image/projects/blog-preview-card-main.jpg" alt="Blog preview card" loading="lazy">
+        <div class="project-info">
+          <h3>Blog preview card</h3>
+          <p>A blog preview card is a short visual summary of a blog post, which gives the reader an idea before reading the full text.</p>
+          <span class="tech">HTML • CSS</span>
+          <a class="link" href="https://mosharrafhossen.github.io/Blog-preview-card/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      <!-- Project 24 -->
+      <article class="project card">
+        <img src="image/projects/simple-omelette-recipe.jpg" alt="Simple Omelette Recipe" loading="lazy">
+        <div class="project-info">
+          <h3>Simple Omelette Recipe</h3>
+          <p>Simple Omelette Recipe is a classic breakfast recipe that is very easy and quick to make.</p>
+          <span class="tech">HTML • CSS</span>
+          <a class="link" href="https://mosharrafhossen.github.io/recipe-page/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+
+      <!-- Project 25 -->
+      <article class="project card">
+        <img src="image/projects/result-summary.jpg" alt="Result Summary" loading="lazy">
+        <div class="project-info">
+          <h3>Results summary component</h3>
+          <p>Result Summary refers to the summary results section of a report, test, assessment, or dashboard.</p>
+          <span class="tech">HTML • CSS</span>
+          <a class="link" href="https://mosharrafhossen.github.io/results-summary-component/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+
+      <!-- Project 26 -->
+      <article class="project card">
+        <img src="image/projects/Nexcent-landing-page.jpg" alt="Landing page oreview website" loading="lazy">
+        <div class="project-info">
+          <h3>Nexcent Landing</h3>
+          <p>Nexcent Landing Page is a simple and cleanly designed web landing page template, often used for UI/UX learning or front-end practice.</p>
+          <span class="tech">HTML • CSS</span>
+          <a class="link" href="https://mosharrafhossen.github.io/nexcent-landing/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+
+      <!-- Project 27 -->
+      <article class="project card">
+        <img src="image/projects/product-preview-card-component.jpg" alt="Product preview website" loading="lazy">
+        <div class="project-info">
+          <h3>Product preview card component</h3>
+            <p>
+              The Product Preview Card Component is a UI component used to show a brief glimpse of a product in e-commerce or product-based apps.
+            </p>
+          <span class="tech">HTML • CSS</span>
+          <a class="link" href="https://mosharrafhossen.github.io/product-preview-card-component/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+
+      <!-- Project 28 -->
+      <article class="project card">
+        <img src="image/projects/qr-code-component.png" alt="Qr code preview website" loading="lazy">
+        <div class="project-info">
+          <h3>QR code component</h3>
+            <p>
+              QR Code Component is a UI component that is used to generate and display QR codes, so that users can easily scan and access any information.
+            </p>
+          <span class="tech">HTML • CSS</span>
+          <a class="link" href="https://mosharrafhossen.github.io/qr-code-component/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+
+      <!-- Project 29 -->
+      <article class="project card">
+        <img src="image/projects/nft-preview-card-componen.jpg" alt="NFT preview website" loading="lazy">
+        <div class="project-info">
+          <h3>NFT preview card component</h3>
+            <p>
+              The NFT Preview Card Component is a UI component that provides a concise and attractive preview of an NFT—especially in marketplace or gallery views.
+            </p>
+          <span class="tech">HTML • CSS</span>
+          <a class="link" href="https://mosharrafhossen.github.io/nft-preview-card-component/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+
+      <!-- Project 30 -->
+      <article class="project card">
+        <img src="image/projects/order-summary-component.jpg" alt="Order summary website" loading="lazy">
+        <div class="project-info">
+          <h3>Order summary component</h3>
+            <p>
+              The Order Summary Component is an important UI part of an e-commerce or order-based app, where the user can see a summary of their order at a glance.
+            </p>
+          <span class="tech">HTML • CSS</span>
+          <a class="link" href="https://mosharrafhossen.github.io/order-summary-component/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+
+      <!-- Project 31 -->
+      <article class="project card">
+        <img src="image/projects/Stats preview card component.jpg" alt="Stats preview website" loading="lazy">
+        <div class="project-info">
+          <h3>Stats preview card component</h3>
+            <p>
+              The Stats Preview Card Component is a small UI card that quickly displays important numerical information—such as total users, revenue, growth rate, etc.
+            </p>
+          <span class="tech">HTML • CSS</span>
+          <a class="link" href="https://mosharrafhossen.github.io/stats-preview-card-component/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      <!-- Project 32 -->
+      <article class="project card">
+        <img src="image/projects/3-column-preview-card-component.png" alt="3 colum preview website" loading="lazy">
+        <div class="project-info">
+          <h3>3-column preview card component</h3>
+            <p>
+              The 3-column Preview Card Component is a UI layout that has 3 cards/sections in a row.
+            </p>
+          <span class="tech">HTML • CSS</span>
+          <a class="link" href="https://mosharrafhossen.github.io/3-column-preview-card-component/" target="_blank" rel="noopener noreferrer">Live →</a>
+        </div>
+      </article>
+
+      </div>
+    </div>
+    </section>
+
+
+
+    <!-- ================= PROJECTS SECTION END ================= -->
+
+    <!-- ================= ABOUT SECTION START ================= -->
+    <section id="about" class="about section">
+      <div class="container about-inner">
+
+        <div class="about-text">
+          <h2 class="section-title" data-animate="words">About Me</h2>
+
+          <p data-animate="words">
+            I’m a Frontend Developer with strong fundamentals in HTML, CSS and JavaScript.
+            I focus on building clean UI, responsive layouts and performant websites.
+          </p>
+
+          <p data-animate="words">
+            Tools I use: HTML, CSS, JavaScript, Git & GitHub.
+          </p>
+      </div>
+
+
+        <div class="about-avatar reveal">
+          <img src="image/Avatar/avatar.png" alt="Developer avatar" loading="lazy">
+        </div>
+      </div>
+    </section>
+    <!-- ================= ABOUT SECTION END ================= -->
+
+    <!-- ================= SKILLS SECTION START ================= -->
+   <section id="skills" class="skills section">
+    <div class="container">
+
+    <h2 class="section-title reveal">Skills</h2>
+
+    <div class="skill-list">
+
+      <div class="skill">
+        <h4>HTML</h4>
+        <p class="skill-note">Semantic, SEO-friendly markup</p>
+        <div class="bar">
+          <span data-skill="95"></span>
+        </div>
+      </div>
+
+      <div class="skill">
+        <h4>CSS</h4>
+        <p class="skill-note">Flexbox, Grid, Responsive Design</p>
+        <div class="bar">
+          <span data-skill="90"></span>
+        </div>
+      </div>
+
+      <div class="skill">
+        <h4>JavaScript</h4>
+        <p class="skill-note">DOM, ES6, Events, LocalStorage</p>
+        <div class="bar">
+          <span data-skill="80"></span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- ================= SKILLS SECTION END ================= -->
+
+    <!-- ================= CONTACT SECTION START ================= -->
+    <section id="contact" class="contact section">
+      <div class="container">
+
+        <h2 class="section-title reveal">Contact</h2>
+        <p class="lead reveal">Let’s work together.</p>
+        <form id="contactForm" class="contact-form reveal" novalidate>
+          <div class="row">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+          </div>
+          <textarea name="message" placeholder="Your message" required></textarea>
+          <button class="btn" type="submit">Send Message</button>
+          <p id="formMsg" class="form-msg"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <!-- ================= CONTACT SECTION END ================= -->
+
+  <!-- ================= FOOTER START ================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Mosharraf Hossen</p>
+    </div>
+    <button id="backToTop" aria-label="Back to top">↑</button>
+  </footer>
+  <!-- ================= FOOTER END ================= -->
+
+  <script src="js/custom.js"></script>
+
+</body>
+</html>
